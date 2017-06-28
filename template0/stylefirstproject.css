@@ -1,0 +1,197 @@
+
+body{
+
+   font-family: Arial !important;
+}
+
+#headdiv{
+
+	display: flex;
+  	width: 100%;
+  	flex-flow: row wrap;
+  	height: 100px;
+  	padding-bottom: 50px;
+
+
+}
+#hd1{
+
+	width: 40%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+
+}
+#hd2{
+	
+	width: 10%;
+	background-color: black;
+	color: green;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+
+}
+#hd3{
+	width: 10%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+
+}
+#hd4{
+	
+	width: 10%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+
+}
+#hd5{
+
+	width: 10%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+
+}
+#main{
+
+	display: flex;
+	flex-wrap: row wrap;
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-bottom: 15%;
+}
+#bd{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+}
+
+#bd2{
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+	margin-left: 70px;
+
+
+}
+
+#img1, #img2{
+
+	display: flex;
+    width:100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+
+}
+
+.conR{
+
+	float: left;
+	color: #A9A9A9;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.div{
+	background-color:#f1f1f1;
+	width: 100%;
+	width: 500px;
+	height: 60px;
+    margin: auto;
+    vertical-align:middle;
+    display: table-cell;
+
+}
+.inner{ 
+
+	display: flex;
+	color: #696969;
+	float:left; width:100%;
+	font-weight: bold;
+ 	margin-left: 10%;
+}
+#footer{
+
+	display: flex;
+	left:0px;
+	bottom:0px;
+	height:250px;
+	width:100%;
+	background:#f1f1f1;
+	padding-top: 70px;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: #A9A9A9;
+
+}
+
+#fooh{
+
+	display: flex;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	max-height: 50px;
+	justify-content: center;
+	color: black;
+	font-size: 50px;
+
+}
+
+.icons{
+
+	width: 4%;
+	height: auto;
+	padding: 2%;
+
+}
+#icon{
+	padding-left: 40%;
+	width: 100%;
+}
+#bar {
+
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-bottom: 100px;
+}
+#logo2{
+
+	display: flex;
+    width:100%;
+    max-width: 120px;
+}
+hr{
+	color:#A9A9A9;
+	margin-bottom: 30px;
+}
+#next{
+
+	float: right;
+	color: #696969;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+#previous{
+	
+	float: left;
+	color: #696969;
+    text-decoration: none;
+   	font-weight: bold;
+
+}
